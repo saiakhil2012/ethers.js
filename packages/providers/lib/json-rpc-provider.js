@@ -558,7 +558,7 @@ var JsonRpcProvider = /** @class */ (function (_super) {
                                     })];
                             }
                         }
-                        return [2 /*return*/, logger.throwError("could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
+                        return [2 /*return*/, logger.throwError("(VMBC Specific Error: EthRPC or Client Service is down) could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
                                 event: "noNetwork"
                             })];
                 }
