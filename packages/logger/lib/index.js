@@ -299,13 +299,13 @@ var Logger = /** @class */ (function () {
             message = "";
         }
         if (count < expectedCount) {
-            this.throwError("missing argument" + message, Logger.errors.MISSING_ARGUMENT, {
+            this.throwError("VMBC Specific Error: missing argument" + message, Logger.errors.MISSING_ARGUMENT, {
                 count: count,
                 expectedCount: expectedCount
             });
         }
         if (count > expectedCount) {
-            this.throwError("too many arguments" + message, Logger.errors.UNEXPECTED_ARGUMENT, {
+            this.throwError("VMBC Specific Error: too many arguments" + message, Logger.errors.UNEXPECTED_ARGUMENT, {
                 count: count,
                 expectedCount: expectedCount
             });
