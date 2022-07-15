@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { defineReadOnly, getStatic } from "@ethersproject/properties";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { JsonRpcProvider } from "./json-rpc-provider";

@@ -4,7 +4,7 @@ import { Network, Networkish } from "@ethersproject/networks";
 import { getStatic } from "@ethersproject/properties";
 import { ConnectionInfo } from "@ethersproject/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

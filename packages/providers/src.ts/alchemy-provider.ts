@@ -7,7 +7,7 @@ import { ConnectionInfo } from "@ethersproject/web";
 import { CommunityResourcable, showThrottleMessage } from "./formatter";
 import { WebSocketProvider } from "./websocket-provider";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

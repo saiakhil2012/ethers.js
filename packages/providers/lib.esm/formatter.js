@@ -5,7 +5,7 @@ import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "
 import { AddressZero } from "@ethersproject/constants";
 import { shallowCopy } from "@ethersproject/properties";
 import { accessListify, parse as parseTransaction } from "@ethersproject/transactions";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 export class Formatter {

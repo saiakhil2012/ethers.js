@@ -53,7 +53,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UrlJsonRpcProvider = exports.StaticJsonRpcProvider = void 0;
 var properties_1 = require("@ethersproject/properties");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@saiakhil2012/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var json_rpc_provider_1 = require("./json-rpc-provider");

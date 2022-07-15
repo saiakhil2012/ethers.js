@@ -45,7 +45,7 @@ Object.defineProperty(exports, "Formatter", { enumerable: true, get: function ()
 Object.defineProperty(exports, "isCommunityResourcable", { enumerable: true, get: function () { return formatter_1.isCommunityResourcable; } });
 Object.defineProperty(exports, "isCommunityResource", { enumerable: true, get: function () { return formatter_1.isCommunityResource; } });
 Object.defineProperty(exports, "showThrottleMessage", { enumerable: true, get: function () { return formatter_1.showThrottleMessage; } });
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@saiakhil2012/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 ////////////////////////

@@ -6,7 +6,7 @@ import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 
 import type { ConnectionInfo } from "@ethersproject/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

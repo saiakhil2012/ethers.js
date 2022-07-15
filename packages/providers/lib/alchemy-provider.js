@@ -19,7 +19,7 @@ exports.AlchemyProvider = exports.AlchemyWebSocketProvider = void 0;
 var properties_1 = require("@ethersproject/properties");
 var formatter_1 = require("./formatter");
 var websocket_provider_1 = require("./websocket-provider");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@saiakhil2012/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var url_json_rpc_provider_1 = require("./url-json-rpc-provider");

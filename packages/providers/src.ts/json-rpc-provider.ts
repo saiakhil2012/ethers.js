@@ -13,7 +13,7 @@ import { toUtf8Bytes } from "@ethersproject/strings";
 import { AccessList, accessListify } from "@ethersproject/transactions";
 import { ConnectionInfo, fetchJson, poll } from "@ethersproject/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

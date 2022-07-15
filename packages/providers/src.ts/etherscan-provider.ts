@@ -9,7 +9,7 @@ import { ConnectionInfo, fetchJson } from "@ethersproject/web";
 
 import { showThrottleMessage } from "./formatter";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

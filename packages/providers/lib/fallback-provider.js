@@ -60,7 +60,7 @@ var random_1 = require("@ethersproject/random");
 var web_1 = require("@ethersproject/web");
 var base_provider_1 = require("./base-provider");
 var formatter_1 = require("./formatter");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@saiakhil2012/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 function now() { return (new Date()).getTime(); }

@@ -16,7 +16,7 @@ import { checkProperties, deepCopy, defineReadOnly, getStatic, resolveProperties
 import { toUtf8Bytes } from "@ethersproject/strings";
 import { accessListify } from "@ethersproject/transactions";
 import { fetchJson, poll } from "@ethersproject/web";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { BaseProvider } from "./base-provider";
