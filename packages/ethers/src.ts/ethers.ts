@@ -9,14 +9,14 @@ import { Wallet } from "@ethersproject/wallet";
 
 import * as constants from "@ethersproject/constants";
 
-import * as providers from "@ethersproject/providers";
-import { getDefaultProvider } from "@ethersproject/providers";
+import * as providers from "@saiakhil2012/providers";
+import { getDefaultProvider } from "@saiakhil2012/providers";
 
 import { Wordlist, wordlists} from "@ethersproject/wordlists";
 
 import * as utils from "./utils";
 
-import { ErrorCode as errors, Logger } from "@ethersproject/logger";
+import { ErrorCode as errors, Logger } from "@saiakhil2012/logger";
 
 ////////////////////////
 // Types

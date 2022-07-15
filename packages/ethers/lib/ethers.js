@@ -34,16 +34,16 @@ var wallet_1 = require("@ethersproject/wallet");
 Object.defineProperty(exports, "Wallet", { enumerable: true, get: function () { return wallet_1.Wallet; } });
 var constants = __importStar(require("@ethersproject/constants"));
 exports.constants = constants;
-var providers = __importStar(require("@ethersproject/providers"));
+var providers = __importStar(require("@saiakhil2012/providers"));
 exports.providers = providers;
-var providers_1 = require("@ethersproject/providers");
+var providers_1 = require("@saiakhil2012/providers");
 Object.defineProperty(exports, "getDefaultProvider", { enumerable: true, get: function () { return providers_1.getDefaultProvider; } });
 var wordlists_1 = require("@ethersproject/wordlists");
 Object.defineProperty(exports, "Wordlist", { enumerable: true, get: function () { return wordlists_1.Wordlist; } });
 Object.defineProperty(exports, "wordlists", { enumerable: true, get: function () { return wordlists_1.wordlists; } });
 var utils = __importStar(require("./utils"));
 exports.utils = utils;
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@saiakhil2012/logger");
 Object.defineProperty(exports, "errors", { enumerable: true, get: function () { return logger_1.ErrorCode; } });
 ////////////////////////
 // Compile-Time Constants

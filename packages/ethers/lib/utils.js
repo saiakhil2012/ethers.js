@@ -82,7 +82,7 @@ var json_wallets_1 = require("@ethersproject/json-wallets");
 Object.defineProperty(exports, "getJsonWalletAddress", { enumerable: true, get: function () { return json_wallets_1.getJsonWalletAddress; } });
 var keccak256_1 = require("@ethersproject/keccak256");
 Object.defineProperty(exports, "keccak256", { enumerable: true, get: function () { return keccak256_1.keccak256; } });
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@saiakhil2012/logger");
 Object.defineProperty(exports, "Logger", { enumerable: true, get: function () { return logger_1.Logger; } });
 var sha2_1 = require("@ethersproject/sha2");
 Object.defineProperty(exports, "computeHmac", { enumerable: true, get: function () { return sha2_1.computeHmac; } });

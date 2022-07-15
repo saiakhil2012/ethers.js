@@ -7,7 +7,7 @@ import { _TypedDataEncoder, dnsEncode, hashMessage, id, isValidName, namehash } 
 import { defaultPath, entropyToMnemonic, getAccountPath, HDNode, isValidMnemonic, mnemonicToEntropy, mnemonicToSeed } from "@ethersproject/hdnode";
 import { getJsonWalletAddress } from "@ethersproject/json-wallets";
 import { keccak256 } from "@ethersproject/keccak256";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { computeHmac, ripemd160, sha256, sha512 } from "@ethersproject/sha2";
 import { keccak256 as solidityKeccak256, pack as solidityPack, sha256 as soliditySha256 } from "@ethersproject/solidity";
 import { randomBytes, shuffled } from "@ethersproject/random";
