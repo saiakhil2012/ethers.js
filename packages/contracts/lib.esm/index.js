@@ -16,7 +16,7 @@ import { BigNumber } from "@ethersproject/bignumber";
 import { arrayify, concat, hexlify, isBytes, isHexString } from "@ethersproject/bytes";
 import { defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
 import { accessListify } from "@ethersproject/transactions";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ;

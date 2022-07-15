@@ -9,7 +9,7 @@ import { arrayify, BytesLike, concat, hexlify, isBytes, isHexString } from "@eth
 import { Deferrable, defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
 import { AccessList, accessListify, AccessListish } from "@ethersproject/transactions";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@saiakhil2012/logger";
 import { version } from "./_version";
 
 const logger = new Logger(version);
