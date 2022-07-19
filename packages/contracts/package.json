@@ -8,7 +8,7 @@
     "@ethersproject/bignumber": "^5.6.2",
     "@ethersproject/bytes": "^5.6.1",
     "@ethersproject/constants": "^5.6.1",
-    "@ethersproject/logger": "^5.6.0",
+    "@saiakhil2012/logger": "5.6.13",
     "@ethersproject/properties": "^5.6.0",
     "@ethersproject/transactions": "^5.6.2"
   },
@@ -31,7 +31,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/contracts",
+  "name": "@saiakhil2012/contracts",
   "publishConfig": {
     "access": "public"
   },
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "tarballHash": "0xa141196d71274d975ae2f1b70a5a1bb6bc48bdfa01f101b85d046f61a66465c6",
   "types": "./lib/index.d.ts",
-  "version": "5.6.2"
+  "version": "5.6.13"
 }

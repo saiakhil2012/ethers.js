@@ -20,7 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Wordlist = exports.version = exports.wordlists = exports.utils = exports.logger = exports.errors = exports.constants = exports.FixedNumber = exports.BigNumber = exports.ContractFactory = exports.Contract = exports.BaseContract = exports.providers = exports.getDefaultProvider = exports.VoidSigner = exports.Wallet = exports.Signer = void 0;
-var contracts_1 = require("@ethersproject/contracts");
+var contracts_1 = require("@saiakhil2012/contracts");
 Object.defineProperty(exports, "BaseContract", { enumerable: true, get: function () { return contracts_1.BaseContract; } });
 Object.defineProperty(exports, "Contract", { enumerable: true, get: function () { return contracts_1.Contract; } });
 Object.defineProperty(exports, "ContractFactory", { enumerable: true, get: function () { return contracts_1.ContractFactory; } });

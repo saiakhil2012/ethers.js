@@ -1,6 +1,6 @@
 "use strict";
 
-import { BaseContract, Contract, ContractFactory } from "@ethersproject/contracts";
+import { BaseContract, Contract, ContractFactory } from "@saiakhil2012/contracts";
 
 import { BigNumber, FixedNumber } from "@ethersproject/bignumber";
 
@@ -52,7 +52,7 @@ import {
     PopulatedTransaction,
 
     ContractInterface
-} from "@ethersproject/contracts";
+} from "@saiakhil2012/contracts";
 
 
 ////////////////////////

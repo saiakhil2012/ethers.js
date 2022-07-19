@@ -1,5 +1,5 @@
 "use strict";
-import { BaseContract, Contract, ContractFactory } from "@ethersproject/contracts";
+import { BaseContract, Contract, ContractFactory } from "@saiakhil2012/contracts";
 import { BigNumber, FixedNumber } from "@ethersproject/bignumber";
 import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
 import { Wallet } from "@ethersproject/wallet";
