@@ -519,29 +519,41 @@ var JsonRpcProvider = /** @class */ (function (_super) {
         return __awaiter(this, void 0, void 0, function () {
             var chainId, error_2, error_3, getNetwork;
             return __generator(this, function (_a) {
+                logger.info("inside __generator: value of _a is " + _a);
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, timer(0)];
                     case 1:
                         _a.sent();
                         chainId = null;
+                        logger.info("inside case 1: value of _a is " + _a);
                         _a.label = 2;
                     case 2:
                         _a.trys.push([2, 4, , 9]);
+                        logger.info("inside case 2: value of _a is " + _a);
                         return [4 /*yield*/, this.send("eth_chainId", [])];
                     case 3:
                         chainId = _a.sent();
+                        logger.info("inside case 3: value of _a is " + _a);
+                        logger.info("inside case 3: value of chainId is " + chainId);
                         return [3 /*break*/, 9];
                     case 4:
                         error_2 = _a.sent();
+                        logger.info("inside case 3: value of _a is " + _a);
+                        logger.info("inside case 3: value of error_2 is " + error_2);
                         _a.label = 5;
                     case 5:
                         _a.trys.push([5, 7, , 8]);
+                        logger.info("inside case 3: value of _a is " + _a);
                         return [4 /*yield*/, this.send("net_version", [])];
                     case 6:
                         chainId = _a.sent();
+                        logger.info("inside case 3: value of _a is " + _a);
+                        logger.info("inside case 3: value of chainId is " + chainId);
                         return [3 /*break*/, 8];
                     case 7:
                         error_3 = _a.sent();
+                        logger.info("inside case 3: value of _a is " + _a);
+                        logger.info("inside case 3: value of error_3 is " + error_3);
                         return [3 /*break*/, 8];
                     case 8: return [3 /*break*/, 9];
                     case 9:
@@ -558,9 +570,10 @@ var JsonRpcProvider = /** @class */ (function (_super) {
                                     })];
                             }
                         }
+                        logger.info("chainId was null, so in Error case");
                         return [2 /*return*/, logger.throwError("(VMBC Specific Error: EthRPC or Client Service is down) could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
                                 event: "noNetwork"
-                            })];
+                        })];
                 }
             });
         });
