@@ -558,9 +558,21 @@ var JsonRpcProvider = /** @class */ (function (_super) {
                                     })];
                             }
                         }
-                        return [2 /*return*/, logger.throwError("could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
+                        if (error_3 != null) {
+                            return [2 /*return*/, logger.throwError("could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
+                                event: "noNetwork",
+                                serverError: error_3
+                            })];
+                        } else if (error_2 != null) {
+                            return [2 /*return*/, logger.throwError("could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
+                                event: "noNetwork",
+                                serverError: error_2
+                            })];
+                        } else {
+                            return [2 /*return*/, logger.throwError("could not detect network", logger_1.Logger.errors.NETWORK_ERROR, {
                                 event: "noNetwork"
                             })];
+                        }
                 }
             });
         });
